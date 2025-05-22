@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+      <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
+
+</head>
+<body>
+
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container">
+    <!-- Logo / Brand -->
+    <a class="navbar-brand" href="#">
+      <img src="images/1.png" alt="Christine Logo" width="100" height="100" class="d-inline-block align-text-top me-2">
+      
+    </a>
+
+    <!-- Toggle Button for Mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Projects
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+    <li><a class="dropdown-item" href="#web-projects">Web Projects</a></li>
+    <li><a class="dropdown-item" href="#graphic-projects">Graphic Projects</a></li>
+  </ul>
+</li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#reviews">Reviews</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header Section -->
+
+<!-- Header Section -->
+<header class="bg-light text-black py-5" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left Column: Text -->
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="fw-bold mb-3">Hi, I'm Christine Njoroge</h1>
+        <p class="lead my-4">
+          I create modern, responsive websites that do more than just look good — they help your business grow. 
+          With expertise in <strong>PHP</strong>, <strong>WordPress</strong>, and <strong>Laravel</strong>, I craft custom solutions that attract visitors, drive engagement, and turn traffic into loyal customers.
+        </p>
+        <button class="btn btn-primary btn-lg mb-4 mb-md-0 custom-hover" data-bs-toggle="modal" data-bs-target="#email">Email Me</button>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-md-6 d-flex justify-content-center">
+        <img 
+          src="images/home2.jpeg" 
+          alt="Professional Website" 
+          class="img-fluid d-none d-sm-block rounded-circle mb-3 profile-pic" 
+          style="width: 400px; height: 400px; object-fit: cover; object-position: center 5%;">
+      </div>
+
+    </div>
+  </div>
+</header>
+
+  <!-- About -->
+<section class="p-5" id="about">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              
+              <!-- Image Column -->
+                 <div class="col-md-6">
+  <img 
+    src="images/home2.jpeg" 
+    alt="Professional Website" 
+    class="img-fluid d-none d-sm-block rounded-circle mb-3 profile-pic" 
+    style="width: 400px; height: 400px; object-fit: cover; object-position: center 5%;">
+</div>
+        
+              <!-- Text Column -->
+              <div class="col-12 col-md-6">
+                <h2 class="mb-4">About Me</h2>
+                <p class="lead">
+                  I am a dedicated and results-driven web developer with a strong focus on building responsive,
+                   user-friendly websites. With experience in WordPress, PHP, JavaScript, and Bootstrap, 
+                   I aim to deliver clean and efficient solutions tailored to client needs.
+                   I am committed to continuous learning and excellence in every project I take on.
+                </p>
+                 
+                <a href="doc\Christine Wanjiku Njoroge-web portfolio.pdf" target="_blank" class="btn btn-primary mt-3 custom-hover">
+                  Read More <i class="bi bi-chevron-right"></i>
+                </a>
+              </div>
+        
+            </div>
+          </div>
+        </section>
+
+
+<section class="container my-5"id="education">
+  <h2 class="mb-4 text-center">Education</h2>
+  
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+           <div class="mb-3">
+      <h5>Web Development Short Course</h5>
+      <p class="mb-1"><strong>Institution:</strong>ICS college</p>
+      <p class="mb-1"><strong>Duration:</strong> November – March 2025</p>
+      <p class="mb-0"><strong>Skills Learned:</strong> HTML, CSS, JavaScript, SQL</p>
+    </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-laptop-fill me-2"></i>Web Development (Self-Taught)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Online Platforms</h6>
+          <p class="card-text">Ongoing | FreeCodeCamp, etc.</p>
+          <p class="mb-0"><strong>Skills Learned:</strong>React,PHP,Laravel and Wordpress</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-palette-fill me-2"></i>Graphic Design(Self-Taught)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Online</h6>
+          <p class="card-text">Ongoing|Satori Graphics</p>
+          <p class="mb-0"><strong>Skills Learned:</strong>Photoshop,  Adobe Illustrator, Indesign and flimora</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container my-5"id="web-projects">
+  <h2 class="mb-4 text-center">Web Projects</h2>
+
+  <!-- Project 1 -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="images/Project 1.jpg" class="img-fluid rounded shadow-sm" alt="Project 1 Screenshot">
+    </div>
+    <div class="col-md-6">
+      <h4 class="mb-3">Macolony Website</h4>
+      <p>The Macolony Website is a modern, responsive landing page built using HTML5, CSS3, Bootstrap, and Git for version control. This project showcases a sleek and professional 
+        design aimed at promoting a web development or digital services business.</p>
+      <a href="https://christinenjoroge.github.io/macolony-website/" target="_blank" class="btn btn-primary custom-hover">View Page</a>
+
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="images/Project 2.jpg" class="img-fluid rounded shadow-sm" alt="Project 2 Screenshot">
+    </div>
+    <div class="col-md-6">
+      <h4 class="mb-3">Library Management System</h4>
+      <p>I developed a Library Management System designed to streamline book 
+        lending and tracking in educational or public library settings.
+         The system includes both admin and user interfaces, 
+        offering a smooth and responsive experience for different user roles.Built using HTML5, CSS3, JavaScript PHP and Postgress,</p>
+       <a href="#"class="btn btn-primary custom-hover">View code</a>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+   <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="images/Project 3.jpg" class="img-fluid rounded shadow-sm" alt="Project 1 Screenshot">
+    </div>
+    <div class="col-md-6">
+      <h4 class="mb-3">Coffee shop</h4>
+      <p>This is a modern and visually appealing website for a fictional coffee shop, 
+        designed to attract customers and promote products online.
+         The website provides an immersive browsing experience, optimized for both desktop and mobile users.Built using HTML5, CSS3, JavaScript.</p>
+      <a href="https://christinenjoroge.github.io/coffeeshop/" target="_blank" class="btn btn-primary custom-hover">View Page</a>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Graphic projects   -->
+
+<section id="graphic-projects" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Graphic Design Projects</h2>
+    
+    <div class="row g-4">
+      
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/business buliding flyer.jpg" class="card-img-top" alt="Graphic Project 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Flyer</h5>
+            <p class="card-text">This flyer was designed to promote the services of Macolony Company, a business-to-business (B2B) supplier of office equipment and furniture.Graphic Software:  Photoshop</p>
+            <a href="images/business buliding flyer.jpg" target="_blank" class="btn btn-primary btn-sm custom-hover">View Full</a>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/we hiring.jpg" class="card-img-top" alt="Graphic Project 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Social Media</h5>
+            <p class="card-text">This recruitment ad was designed to attract qualified candidates for the role of Customer Care Specialist.  graphic.
+Graphic Software: Adobe Illustrator / Photoshop</p>
+            <a href="images/we hiring.jpg" target="_blank" class="btn btn-primary btn-sm custom-hover">View Full</a>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/business card .png" class="card-img-top" alt="Graphic Project 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Business Card Design</h5>
+            <p class="card-text">Professional business card mockup built using Photoshop.</p>
+            <a href="images/business card .png" target="_blank" class="btn btn-primary btn-sm custom-hover">View Full</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/t-shirt.jpg" class="card-img-top" alt="Graphic Project 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">T-shirt Design</h5>
+            <p class="card-text">A blod reinterpretation of the iconic symbol,using vibrant green on black to create a mordern, high-impact graphic.
+Graphic Software: Adobe Illustrator / Photoshop</p>
+            <a href="images/t-shirt.jpg" target="_blank" class="btn btn-primary btn-sm custom-hover">View Full</a>
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/t-shirt 06.png" class="card-img-top" alt="Graphic Project 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">T-shirt Design</h5>
+            <p class="card-text">The design fetures a photo of a truck on a highway and a sunset gradient back,symbolizing motion,strength Graphic Software: Adobe Illustrator / Photoshop</p>
+            <a href="images/t-shirt 06.png" target="_blank" class="btn btn-primary btn-sm custom-hover">View Full</a>
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/t-shirt2.png" class="card-img-top" alt="Graphic Project 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">T-shirt Design</h5>
+            <p class="card-text">A minimalist design symbolizing freedom and lightness,using soft contrast and starburst accents to add elegance.Graphic Software: Adobe Illustrator / Photoshop</p>
+            <a href="images/t-shirt2.png" target="_blank" class="btn btn-primary btn-sm custom-hover">View Full</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  
+<!-- Testimonials Section -->
+<section class="container my-5 w-full" id="reviews">
+  <h2 class="text-center mb-4">What People Say</h2>
+  <div class="row g-4">
+
+    <!-- Testimonial 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body text-center">
+          <img src="images/reviewer1.jpg" alt="Reviewer 1" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+          <h6 class="fw-bold">Samuel Kimani</h6>
+          <p class="text-muted small">Client</p>
+          <p class="fst-italic">"Christine built a beautiful and responsive website for my business. Communication was smooth and the results were great."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body text-center">
+          <img src="images/reviewer2.jpg" alt="Reviewer 2" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+          <h6 class="fw-bold">Rose Njeri</h6>
+          <p class="text-muted small">Lecturer</p>
+          <p class="fst-italic">"She’s quick to learn, reliable, and takes feedback seriously. A very promising developer."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body text-center">
+          <img src="images/reviewer3.jpg" alt="Reviewer 3" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+          <h6 class="fw-bold">Elvis Mumo</h6>
+          <p class="text-muted small">Classmate</p>
+          <p class="fst-italic">"Christine helped me debug my PHP project. She really knows what she's doing and explains clearly."</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Skills -->
+ <section class="container my-5"id="Skills">
+  <h2 class="mb-4">My Skills</h2>
+
+  <div class="mb-3">
+    <label>HTML <span class="float-end">95%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-success" style="width: 95%;">95%</div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label>CSS <span class="float-end">90%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-info" style="width: 90%;">90%</div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label>JavaScript <span class="float-end">75%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-warning" style="width: 75%;">75%</div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label>PHP <span class="float-end">65%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-danger" style="width: 65%;">65%</div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label>MySQL <span class="float-end">70%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-primary" style="width: 70%;">70%</div>
+    </div>
+  </div>
+
+
+
+  <div class="mb-3">
+    <label>WordPress <span class="float-end">85%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-dark" style="width: 85%;">85%</div>
+    </div>
+  </div>
+
+
+
+
+    <div class="mb-3">
+    <label>Indesign <span class="float-end">70%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-success" style="width: 70%;">70%</div>
+    </div>
+
+     <div class="mb-3">
+    <label>Ilustrator <span class="float-end">60%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-secondary" style="width: 60%;">60%</div>
+    </div>
+
+
+     <div class="mb-3">
+    <label>Photoshop <span class="float-end">50%</span></label>
+    <div class="progress">
+      <div class="progress-bar bg-warning" style="width: 50%;">50%</div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+
+   <footer class="w-full p-5 bg-dark text-center text-white position-relative">
+          <div class="container">
+            <p class="lead mb-0">Copyright &copy; 2025 Christine Njoroge</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+              <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+          </div>
+        </footer>
+
+
+  <div class="modal fade" id="email" tabindex="-1" aria-labelledby="email Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Email form</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="lead">Email me will get abck to you</p>
+
+      <form action="send">
+        <div class="mb-3">
+          <label for="first-name" class="col-form-label">FristName</label>
+          <input type="text" class="form-control" id="first-name">
+        </div>
+
+        <div class="mb-3">
+          <label for="last-name" class="col-form-label">LastName</label>
+          <input type="text" class="form-control" id="last-name">
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="col-form-label">Emailaddress</label>
+          <input type="text" class="form-control" id="emailaddress">
+        </div>
+
+        <div class="mb-3">
+          <label for="phone-number" class="col-form-label">Phonenumber</label>
+          <input type="text" class="form-control" id="phone-number">
+        </div>
+      </form>
+
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+ <script src="javascript.js"></script>
+  
+</body>
+</html>
