@@ -1,7 +1,8 @@
+const dec = document.getElementsByTagName('body');
+dec.body.style.backgroundImage = "linear-gradient(to bottom, black, #333)";
 
-const view=document.getElementsByTagName('body') [0];
 
-view.style.backgroundColor = 'Beige';
+
 
 
 

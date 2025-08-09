@@ -1,0 +1,8 @@
+#Ignore the email script file  
+email.php
+
+#Ignore the PHP Mailer script folder  
+PHPMailer
+
+
+
